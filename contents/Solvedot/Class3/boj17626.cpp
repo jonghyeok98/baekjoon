@@ -19,7 +19,7 @@ int main(void)
 
 	for (int i = 1; i*i <= N; i++)
 		dp[i*i] = 1;
-
+ 
 	for(int i=1; i<=N; i++)
 	{
 		if(dp[i]!=0)
